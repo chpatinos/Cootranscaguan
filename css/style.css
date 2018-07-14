@@ -1870,8 +1870,7 @@ FOOTER
 ******************************************/
 
 .section.footer {
-    padding: 12rem 0;
-    background-color: #000
+    background-color: rgb(255, 255, 255)
 }
 
 .social-links i {
@@ -1879,24 +1878,23 @@ FOOTER
 }
 
 .widget-title {
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     padding: 0 0 30px;
     margin: 0;
-    line-height: 1;
+    line-height: 2;
 }
 
 .small-title {
     color: #000;
     font-size: 20px;
-    padding: 0 0 30px;
     margin: 0;
     line-height: 1;
 }
 
 .copyrights {
     background-color: #071621;
-    border-top: 1px solid #181818;
+    font-size: 15px;
 }
 
 .copyrights li a {
@@ -1929,31 +1927,6 @@ FOOTER
     filter: grayscale(0);
 }
 
-.newsletter-widget .form-control {
-    border-radius: 0;
-    font-size: 14px;
-    box-shadow: none !important;
-    height: 48px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    min-width: 280px;
-}
-
-.newsletter-widget img {
-    display: block;
-    max-width: 280px;
-    margin-top: 40px;
-}
-
-.newsletter-widget p {
-    margin-bottom: 30px;
-}
-
-.newsletter-widget .btn {
-    padding-left: 23px;
-    padding-right: 23px;
-}
-
 .footer ul {
     list-style: none;
     padding: 0;
@@ -1971,11 +1944,11 @@ FOOTER
 .footer .form-control,
 .footer p,
 .footer a {
-    color: #aaa;
+    color: rgb(71, 71, 71);
 }
 
 .footer a:hover {
-    color: #ffffff;
+    color: #020644;
 }
 
 .absolute-widget {
