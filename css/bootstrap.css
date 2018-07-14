@@ -1175,19 +1175,28 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 .h1,
 .h2,
 .h3,
 .h4,
-.h5,
 .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
+h5,
+.h5{
+  box-sizing: border-box;
+  color: rgb(162, 162, 162);
+  display: block;
+  font-family:'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0;
+}
+
 h1 small,
 h2 small,
 h3 small,
@@ -1287,7 +1296,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0;
 }
 .lead {
   margin-bottom: 20px;

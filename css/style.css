@@ -81,7 +81,6 @@ IMPORT
     content: "\f10d";
 }
 
-
 /******************************************
 SKELETON
 ******************************************/
@@ -96,7 +95,8 @@ body {
 body,
 p,
 li,
-a {
+a,
+h5 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -107,7 +107,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     color: #000;
 }
@@ -116,9 +115,12 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     line-height: 1.5;
+}
+
+h5 {
+    color: rgb(162, 162, 162);
 }
 
 .cop-logo img,
@@ -189,7 +191,6 @@ blockquote:before {
     font-size: 24px;
     left: 10px;
 }
-
 
 /******************************************
 HEADER
@@ -417,7 +418,6 @@ HEADER
     padding-left: 8px !important;
 }
 
-
 /******************************************
 MEGA MENU
 ******************************************/
@@ -544,7 +544,6 @@ MEGA MENU
     text-transform: capitalize;
 }
 
-
 /******************************************
 PAGES
 ******************************************/
@@ -657,7 +656,6 @@ PAGES
     font-size: 13px;
     vertical-align: baseline;
 }
-
 
 /******************************************
 EVENTS
@@ -795,7 +793,6 @@ teammembers .magnifier {
     margin: 0;
 }
 
-
 /******************************************
 CONTACT
 ******************************************/
@@ -913,7 +910,6 @@ CONTACT
     text-transform: capitalize;
 }
 
-
 /******************************************
 SECTIONS
 ******************************************/
@@ -971,7 +967,7 @@ SECTIONS
 
 .section {
     background-color: #ffffff;
-    padding: 8rem 0;
+    padding: 3rem 0;
     position: relative;
     display: block;
 }
@@ -1090,7 +1086,7 @@ SECTIONS
 
 .box p {
     padding: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .box i {
@@ -1155,7 +1151,6 @@ hr.invis {
     border: 0;
     margin: 30px 0;
 }
-
 
 /******************************************
 COURSE MODULES
@@ -1261,7 +1256,6 @@ COURSE MODULES
     color: #fff !important;
 }
 
-
 /************************************
 WIDGETS
 ************************************/
@@ -1316,7 +1310,6 @@ WIDGETS
 .sidebar .media:last-child {
     margin-bottom: 0;
 }
-
 
 /************************************
 BLOG
@@ -1593,7 +1586,6 @@ BLOG
     margin-bottom: 30px
 }
 
-
 /******************************************
 TESTIMONIAL
 ******************************************/
@@ -1735,7 +1727,6 @@ TESTIMONIAL
     margin: 0;
 }
 
-
 /******************************************
 SHOP
 ******************************************/
@@ -1864,7 +1855,6 @@ SHOP
     padding-bottom: 10px;
 }
 
-
 /******************************************
 FOOTER
 ******************************************/
@@ -1945,6 +1935,7 @@ FOOTER
 .footer p,
 .footer a {
     color: rgb(71, 71, 71);
+    margin: 0;
 }
 
 .footer a:hover {
@@ -1990,7 +1981,6 @@ FOOTER
     color: rgba(255, 255, 255, 0.6);
 }
 
-
 /******************************************
 BUTTONS
 ******************************************/
@@ -2009,7 +1999,6 @@ BUTTONS
     color: #ffffff;
     border: 1px solid #fff;
 }
-
 
 /************************************
 MICS
@@ -2051,13 +2040,12 @@ MICS
     border-radius: 50%
 }
 
-
 /******************************************
 COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #01bacf;
+    border-top-color: #01cf35;
 }
 
 .iconitem a.shopicon i {
@@ -2084,11 +2072,14 @@ blockquote:after,
 .course-box small,
 .course-details h4:hover a,
 .course-footer i,
-a:hover,
-a:focus,
 .box i,
 .topbar .text-left i {
     color: #01bacf;
+}
+
+a:hover,
+a:focus {
+    color: rgb(119, 119, 119);
 }
 
 .shop-extra .nav-tabs>li:hover a,
@@ -2133,7 +2124,6 @@ mark,
     border-color: #00a8bd;
 }
 
-
 /******************************************
 COLOR GREEN
 ******************************************/
@@ -2156,7 +2146,6 @@ COLOR GREEN
     box-shadow: inset 0 100px 0 0 #74a632;
     border-color: #74a632;
 }
-
 
 /******************************************
 RESPONSIVE
@@ -2273,5 +2262,33 @@ RESPONSIVE
 @media (max-width: 1200px) {
     .nav>li>a {
         padding: 1em 0.7em;
+    }
+    /*
+* ==========================================================================
+* Optional Carousel
+* ==========================================================================
+*/
+    .carousel-caption .carousel-title {
+        color: #ffffff;
+    }
+    @media (min-width: 768px) and (max-width: 1199px) {
+        .carousel-caption {
+            font-size: 12px;
+            padding-bottom: 0px;
+            bottom: 2px;
+        }
+        .carousel-caption .carousel-title {
+            font-size: 18px;
+        }
+    }
+    @media (max-width: 767px) {
+        .carousel-caption {
+            font-size: 11px;
+            padding-bottom: 0;
+            bottom: 0;
+        }
+        .carousel-caption .carousel-title {
+            font-size: 14px;
+        }
     }
 }
