@@ -86,10 +86,10 @@ SKELETON
 ******************************************/
 
 body {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     line-height: 1.6;
     font-size: 16px;
-    color: #a2a2a2;
+    color: #242424;
 }
 
 body,
@@ -120,12 +120,12 @@ h6 {
 }
 
 h5 {
-    color: rgb(162, 162, 162);
+    color: rgb(255, 255, 255);
 }
 
 .cop-logo img,
 a {
-    color: #000;
+    color: rgb(133, 133, 133);
     text-decoration: none !important;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -198,8 +198,9 @@ HEADER
 
 .topbar {
     background-color: #35ad67;
-    margin-bottom: 3px;
-    padding: 10px 0 10px;
+    margin-bottom: 10px;
+    padding: 7px 0 7px;
+    box-shadow: 5px 0.1px 5px 0.3px rgba(0, 0, 0, 0.336);
 }
 
 .topbar a,
@@ -218,12 +219,12 @@ HEADER
 }
 
 .header {
-    position: absolute;
+    position: relative;
     z-index: 111;
     left: 0;
     top: 0;
     right: 0;
-    padding: 0 0 20px;
+    padding: 0 0 30px;
     background-color: #fff;
     text-decoration: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -231,6 +232,8 @@ HEADER
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    border: #000;
+    box-shadow: 5px 0.1px 5px 0.3px rgba(0, 0, 0, 0.336);
 }
 
 .header.without-topbar {
@@ -253,7 +256,7 @@ HEADER
     z-index: 111;
     background-color: #fff;
     left: 0;
-    padding: 3px 0 20px;
+    padding: 10px 0 30px;
     right: 0,
 }
 
@@ -330,7 +333,7 @@ HEADER
 }
 
 .navbar-brand {
-    padding: 0 10px 0 0;
+    padding: 0;
 }
 
 .social a.facebook {
@@ -884,6 +887,10 @@ CONTACT
     position: relative;
 }
 
+.row {
+    margin: 0;
+}
+
 .infobox img {
     width: 100% !important;
 }
@@ -1196,7 +1203,7 @@ COURSE MODULES
 }
 
 .course-footer a {
-    color: #aaa;
+    color: rgb(65, 65, 65);
 }
 
 .course-footer i {
@@ -1860,7 +1867,8 @@ FOOTER
 ******************************************/
 
 .section.footer {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px -0.1px 5px 0.3px rgba(0, 0, 0, 0.336);
 }
 
 .social-links i {
@@ -1934,12 +1942,13 @@ FOOTER
 .footer .form-control,
 .footer p,
 .footer a {
-    color: rgb(71, 71, 71);
+    color: #3a3a3a;
+    font-weight: 400;
     margin: 0;
 }
 
 .footer a:hover {
-    color: #020644;
+    color: #000000;
 }
 
 .absolute-widget {
@@ -2142,6 +2151,25 @@ COLOR GREEN
     transition: all ease 0.5s;
 }
 
+.btn-reserva {
+    background-color: transparent;
+    color: #000000;
+    padding: 3rem 0 0 0;
+    vertical-align: middle;
+}
+
+.boton-reserva {
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+
+.boton-reserva:hover {
+    background-color: rgb(173, 173, 173);
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 1px #000000;
+}
+
 .btn-default:hover {
     box-shadow: inset 0 100px 0 0 #74a632;
     border-color: #74a632;
@@ -2291,4 +2319,82 @@ RESPONSIVE
             font-size: 14px;
         }
     }
+
+    .carousel-caption .row {
+        margin: 0;
+    }
+}
+
+/* Flat Qoute
+-------------------------------------------------------------- */
+.flat-qoute {
+	background-color: #109446;
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+
+.flat-qoute p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.flat-qoute h3{
+    color: #fff;
+    font-size: 16px;
+}
+
+.flat-qoute .text-qoute h3 {
+	margin-top: 10px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.flat-qoute .btn-qoute {
+	margin-top: 11px;
+}
+
+.flat-qoute .btn-qoute button {	
+    font-weight: 600;
+    background-color: #fff;
+    margin-top: 10px;
+    border-color: #fff;
+    color: #4b4b4b;   
+    border: 2px solid #fff;  
+    line-height: normal;  
+}
+
+.btn-qoute.right button:hover {
+    color: #fff;
+}
+
+.flat-counter.style2 {
+		padding: 50px 0;
+    }
+
+
+/* Team item - Team image
+-------------------------------------------------------------- */
+
+.team-item {
+    position: relative;
+    z-index: 2;
+    content: '';
+	position: absolute;
+	background-color: #364c61;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	border-radius: 3px;
+	transform: scaleY(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    transform: scaleY(1);
+    border-color: transparent;
 }
