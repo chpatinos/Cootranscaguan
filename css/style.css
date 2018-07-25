@@ -244,12 +244,13 @@ HEADER
 }
 
 .navbar-default .nav>li>a {
-    top: 10px;
+    top: 12px;
     color: rgb(0, 0, 0) !important;
     text-transform: capitalize;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 500;
     outline: none;
+    margin: 2px;
 }
 
 .navbar-nav .has-submenu .dropdown-menu li a {
@@ -2505,4 +2506,22 @@ RESPONSIVE
     text-align: center;
     display: inline-block;
     padding: 40px 0px;
+}
+
+/*--
+      Google map
+  --*/
+.google-map {
+    overflow:hidden;
+    padding-bottom: 80%;
+    position:relative;
+    height:0;
+}
+
+.google-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
