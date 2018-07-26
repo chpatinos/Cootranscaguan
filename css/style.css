@@ -263,7 +263,7 @@ HEADER
 
 .navbar-default .dropdown-menu li a {
     color: rgb(14, 14, 14);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .navbar-default .fa-angle-right {
@@ -438,7 +438,7 @@ MEGA MENU
 
 .yamm .dropdown-menu li a {
     padding: 0 !important;
-    color: #000;
+    color: #848484;
 }
 
 .yamm .dropdown-menu li:hover a {
@@ -2021,7 +2021,7 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-    border-top-color: #109446;
+    border-top-color: #01cf35;
 }
 
 .iconitem a.shopicon i {
@@ -2050,7 +2050,7 @@ blockquote:after,
 .course-footer i,
 .box i,
 .topbar .text-left i {
-    color: #70cbff;
+    color: #01bacf;
 }
 
 a:hover,
