@@ -1430,6 +1430,7 @@ figure {
 
 img {
   vertical-align: middle;
+  border-radius: 15px;
 }
 
 .img-responsive,

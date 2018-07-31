@@ -124,6 +124,10 @@ h5 {
     color: rgb(255, 255, 255);
 }
 
+img {
+    border-radius: 7px;
+}
+
 .cop-logo img,
 a {
     color: rgb(133, 133, 133);
@@ -2335,7 +2339,7 @@ RESPONSIVE
 }
 
 .flat-counter.style2 {
-    padding: 50px 0;
+    padding: 0 0 15px 0;
 }
 
 /* Team item - Team image
@@ -2525,3 +2529,51 @@ RESPONSIVE
     width:100%;
     position:absolute;
 }
+
+/*--
+      Principios (inicio)
+  --*/
+#principios {
+    margin-top: 15px;
+    display: table;
+	margin: 0 auto;
+}
+
+#principios ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#principios li {
+    float: left;
+    display: block;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/*--
+      Biografia (inicio)
+  --*/
+.biografia {
+    background-color: rgb(242, 240, 248);
+    padding: 20px 0 50px 0;
+    box-shadow: 5px 0.1px 5px 0.3px rgba(180, 178, 178, 0.336);
+}
+
+.flat-row{
+    padding: 17px 0 0 0;
+}
+
+/*--
+      Departamentos (historia)
+  --*/
+#departamentos {
+    margin-bottom: 50px;
+}
+
+
+
