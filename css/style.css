@@ -2575,5 +2575,26 @@ RESPONSIVE
     margin-bottom: 50px;
 }
 
+/*--
+      Rutas
+  --*/
 
+.rute {
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 10px 0;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
 
+.rute h4, h5, h6 {
+    color: white;
+    margin: 0;
+}
+
+.rute h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
