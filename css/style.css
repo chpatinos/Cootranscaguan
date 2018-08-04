@@ -2597,3 +2597,14 @@ RESPONSIVE
     margin-top: 0;
     margin-bottom: 50px;
 }
+
+/*--
+      Botón Inicio
+  --*/
+.btn-inicio{
+    margin-bottom: 15px;
+    background-color: #109446;
+    border-radius: 30px;
+    border: transparent;
+    padding: 10px 20px;
+}
